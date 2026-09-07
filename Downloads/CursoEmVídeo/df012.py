@@ -1,0 +1,6 @@
+print("====Crie um produto!!==== ")
+produt = input("Qual o nome do produto? ")
+valor = float(input("Digite o valor do produto: "))
+promo = float(input("Quanto de % você quer diminuir? "))
+Porc = valor -  (valor * promo/100)
+print(f"O preço antigo de {produt} era {valor} porém com a promoção de {promo}% passou a ser {Porc}!!")
