@@ -15,3 +15,4 @@ lista1 = (
 for c in lista1:
     print(c, end='')
 print('='*29)
+exit.cancel
